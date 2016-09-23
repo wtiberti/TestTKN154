@@ -1,0 +1,12 @@
+#ifndef SETTINGS_H
+#define SETTINGS_H
+enum {
+	RADIO_CHANNEL = 26,
+	PAN_ID = 0x8172,
+	COORDINATOR_ADDRESS = 0x4331,
+	BEACON_ORDER = 5,
+	SUPERFRAME_ORDER = 5,
+	TX_POWER = -20, // in dBm
+};
+
+#endif /* SETTINGS_H */
